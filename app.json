@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/menu/menu",
+    "pages/circle/circle",
+    "pages/cart/cart",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "navigationBarBackgroundColor":"#f2edd7",
+    "navigationBarTitleText":"食一",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath":"pages/home/home",
+      "text": "首页",
+      "iconPath": "./assets/img/home.png",
+      "selectedIconPath": "./assets/active_img/home.png"
+    },
+    {
+      "pagePath": "pages/menu/menu",
+      "text": "菜谱",
+      "iconPath": "./assets/img/menu.png",
+      "selectedIconPath": "./assets/active_img/menu.png"
+    },
+    {
+      "pagePath": "pages/circle/circle",
+      "text": "美食圈",
+      "iconPath": "./assets/img/circle.png",
+      "selectedIconPath": "./assets/active_img/circle.png"
+    },
+    {
+      "pagePath": "pages/cart/cart",
+      "text": "购物车",
+      "iconPath": "./assets/img/cart.png",
+      "selectedIconPath": "./assets/active_img/cart.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "./assets/img/mine.png",
+      "selectedIconPath": "./assets/active_img/mine.png"
+    }
+  ],
+  "backgroundColor":"#f2edd7",
+  "color": "#666666",
+  "selectedColor": "#000000",
+  "borderStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
